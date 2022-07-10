@@ -146,6 +146,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BresenhamDrawLine.h" />
     <ClInclude Include="Common.h" />
     <ClInclude Include="DrawLine.h" />
     <ClInclude Include="framework.h" />
@@ -153,6 +154,7 @@
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="BresenhamDrawLine.cpp" />
     <ClCompile Include="DrawLine.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MyDrawLine.cpp" />

@@ -5,6 +5,8 @@ using namespace Graphics;
 
 std::optional<std::vector<Eigen::Vector2i>> IDrawLine::drawLine(const Eigen::Vector2f& vP1, const Eigen::Vector2f& vP2)
 {
+	_ASSERTE(!std::isnan(vP1.x() + vP1.y() + vP2.x() + vP2.y()));
+
 	std::vector<Eigen::Vector2i> DrawnPixels;
 
 	try

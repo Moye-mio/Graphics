@@ -39,6 +39,9 @@
     <ClInclude Include="Common.h">
       <Filter>源文件</Filter>
     </ClInclude>
+    <ClInclude Include="BresenhamDrawLine.h">
+      <Filter>DrawLine</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -52,6 +55,9 @@
     </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BresenhamDrawLine.cpp">
+      <Filter>DrawLine</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

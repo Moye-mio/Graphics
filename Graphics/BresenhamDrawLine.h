@@ -3,7 +3,7 @@
 
 namespace Graphics
 {
-	class CMyDrawLine : public IDrawLine
+	class CBresenhamDrawLine : public IDrawLine
 	{
 
 	private:
