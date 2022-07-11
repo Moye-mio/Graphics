@@ -19,6 +19,9 @@
     <Filter Include="Precompiled">
       <UniqueIdentifier>{4ee28d1c-f990-499b-901b-5719f9e42ed5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Rasterization">
+      <UniqueIdentifier>{e812e03a-ab2d-4b3b-baab-3670545967d9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -42,6 +45,9 @@
     <ClInclude Include="BresenhamDrawLine.h">
       <Filter>DrawLine</Filter>
     </ClInclude>
+    <ClInclude Include="Rasterizer.h">
+      <Filter>Rasterization</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -58,6 +64,9 @@
     </ClCompile>
     <ClCompile Include="BresenhamDrawLine.cpp">
       <Filter>DrawLine</Filter>
+    </ClCompile>
+    <ClCompile Include="Rasterizer.cpp">
+      <Filter>Rasterization</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
